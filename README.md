@@ -1,1 +1,1 @@
-# Landing-Page
+This Landing Page is my next project in The Odin Project. This will test my skills that I have learned up until now.
