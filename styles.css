@@ -1,13 +1,18 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
-    margin: 8px;
     padding: 8px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #1F2937 ;
 }
 
 .right-links {
@@ -88,4 +93,30 @@ button {
     display: flex;
     justify-content: space-around;
     padding: 64px;
+}
+
+img {
+  height: 125px;
+  width: 125px;
+  border-radius: 8px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.images {
+    max-width: 200px;
 }
