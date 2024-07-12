@@ -99,6 +99,7 @@ img {
   height: 125px;
   width: 125px;
   border-radius: 8px;
+  margin-bottom: 4px;
 }
 
 .title {
@@ -119,4 +120,34 @@ img {
 
 .images {
     max-width: 200px;
+    margin-bottom: 64px;
+}
+
+.container-4 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 72px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 12px;
+    font-weight: lighter;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+p {
+    margin: 0px;
 }
